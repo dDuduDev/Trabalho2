@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Times New Roman', Times, serif, com
+}
+
+body{
+    background-color: rgb(99, 97, 97);
+}
+
+header{
+    background-color:#CCCCCC;
+}
+
+#layout{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(0, 71, 255);
+    border: solid px black;
+    font-size: 120px;
+    width: 100%;
+    height: 150px;
+}
+
+#bike{
+    width: 120px;
+}
+
+nav{
+    border: #000000  ;
+    background:  #CCCCCC;
+    width: 100%;
+    height: 40px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:initial;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    margin-bottom: 1%;
+}
+
+main{
+    background-color: gray;
+}
+
+#ponto1{
+    background-color: #CCCCCC;
+    border-radius: 10px;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    height: 170px;
+    margin: 0px 15px;
+    /* box-shadow: 1px 1px 23px 14px rgba(0,0,0,0.71); */
+}
+
+
+#p1{
+    font-size: 25px;
+}
+
+#p2{
+    font-size: 20px;
+}
+ span{
+
+    background-color: #CCCCCC;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 8px;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+    margin: 20px;
+    padding: 5px;
+    margin-left: 45%;
+    margin-right: 45%;
+}
+
+
+.bicicletarios{
+    background-color: #CCCCCC;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    width: 18%;
+    height: 330px;
+    margin: 18px;
+    justify-items: center;
+    box-shadow: 10px 9px 6px -3px rgba(0,0,0,0.71);
+}
+
+.bicicletarios-content {
+    text-align: justify;
+    margin: 10px;
+}
+
+img{
+    width: 50px;
+    color: azure;
+}
+
+.bicicletarios > h2 {
+    text-align: center;
+    padding: 15px;
+    background-color: rgb(0, 71, 255);
+    border-radius: 10px 10px 0px 0px;
+    color: azure;
+}
+
+
+.pStyle{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-bottom: 1%;
+}
+
+footer{
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
